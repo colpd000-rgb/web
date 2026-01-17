@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fanclub Manchester City</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+.header {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+/* Banner */
+.banner {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6e/Etihad_Stadium_2022.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Slogan */
+.slogan {
+    background-color: #eaf4ff;
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.block {
+    width: 33.33%;
+    text-align: center;
+    padding: 15px;
+}
+
+.block h3 {
+    color: #1e90ff;
+}
+
+/* Content */
+.content {
+    padding: 30px;
+}
+
+.content-row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.box {
+    width: 50%;
+    padding: 15px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff6b00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    FANCLUB MANCHESTER CITY
+</div>
+
+<div class="banner">
+    WELCOME TO MAN CITY FANCLUB
+</div>
+
+<div class="slogan">
+    <div class="row">
+        <div class="block">
+            <h3>Đam mê</h3>
+            <p>Tình yêu bất tận với Man City</p>
+        </div>
+        <div class="block">
+            <h3>Chiến thắng</h3>
+            <p>Luôn hướng tới danh hiệu</p>
+        </div>
+        <div class="block">
+            <h3>Tự hào</h3>
+            <p>Niềm kiêu hãnh fan Man City</p>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+<div class="content-row">
+    <div class="box">
+        <h3>Erling Haaland</h3>
+        <p>Tiền đạo chủ lực của Manchester City.</p>
+    </div>
+    <div class="box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Erling_Haaland_2023.jpg">
+    </div>
+</div>
+
+<div class="content-row">
+    <div class="box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Etihad_Stadium_2022.jpg">
+    </div>
+    <div class="box">
+        <h3>Sân Etihad</h3>
+        <p>Sân vận động chính thức của Manchester City.</p>
+    </div>
+</div>
+
+<div class="content-row">
+    <div class="box">
+        <h3>HLV Pep Guardiola</h3>
+        <p>Người xây dựng lối chơi huyền thoại.</p>
+    </div>
+    <div class="box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Pep_Guardiola_2017.jpg">
+    </div>
+</div>
+
+</div>
+
+<div class="footer">
+    Fanclub Manchester City © 2026
+</div>
+
+</body>
+</html>
